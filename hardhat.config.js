@@ -6,7 +6,7 @@ module.exports = {
     version: '0.8.25',
     settings: {
       optimizer: { enabled: true, runs: 1000000 },
-      evmVersion: 'cancun',
+      evmVersion: 'paris',
     },
   },
   networks: {
@@ -34,7 +34,21 @@ module.exports = {
       chainId: 1,
       url: process.env.MAINNET_URL || '',
       accounts: [process.env.PRIVATE_KEY],
-      gas: 3000000,
+    },
+    arbitrum: {
+      chainId: 42161,
+      url: process.env.ARBITRUM_URL || '',
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    polygon: {
+      chainId: 137,
+      url: process.env.POLYGON_URL || '',
+      accounts: [process.env.PRIVATE_KEY],
+    },
+    optimism: {
+      chainId: 10,
+      url: process.env.OPTIMISM_URL || '',
+      accounts: [process.env.PRIVATE_KEY],
     },
   },
   etherscan: {

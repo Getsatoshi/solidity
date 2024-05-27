@@ -8,8 +8,12 @@
     "test": "hardhat ignition deploy ignition/modules/TestWrap.js",
     "hardhat": "hardhat",
     "node": "hardhat node",
+    "deploy": "hardhat --network hardhat ignition deploy ignition/modules/Satoshi.js",
     "deploy-sepolia": "hardhat --network sepolia ignition deploy ignition/modules/Satoshi.js",
-    "deploy-mainnet": "hardhat --network mainnet ignition deploy ignition/modules/Satoshi.js"
+    "deploy-mainnet": "hardhat --network mainnet ignition deploy ignition/modules/Satoshi.js",
+    "deploy-polygon": "hardhat --network polygon ignition deploy ignition/modules/Satoshi.js",
+    "deploy-optimism": "hardhat --network optimism ignition deploy ignition/modules/Satoshi.js",
+    "deploy-arbitrum": "hardhat --network arbitrum ignition deploy ignition/modules/Satoshi.js"
   },
   "author": "Oleksii Matiiasevych",
   "license": "ISC",
@@ -17,6 +21,6 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@openzeppelin/contracts": "^5.0.2",
     "dotenv": "^16.4.5",
-    "hardhat": "^2.22.2"
+    "hardhat": "^2.22.4"
   }
 }

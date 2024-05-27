@@ -1,0 +1,4 @@
+
+{"chainId":137,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"Satoshi#ICreateX","contractAddress":"0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed","contractName":"ICreateX","dependencies":[],"futureId":"Satoshi#ICreateX","futureType":"NAMED_ARTIFACT_CONTRACT_AT","strategy":"basic","strategyConfig":{},"type":"CONTRACT_AT_EXECUTION_STATE_INITIALIZE"}
+{"artifactId":"Satoshi#Satoshi","contractAddress":"0x6739810CA1C46BdA089db02125716fBe7D34e1CE","contractName":"Satoshi","dependencies":[],"futureId":"Satoshi#Satoshi","futureType":"NAMED_ARTIFACT_CONTRACT_AT","strategy":"basic","strategyConfig":{},"type":"CONTRACT_AT_EXECUTION_STATE_INITIALIZE"}
